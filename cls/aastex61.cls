@@ -6204,7 +6204,7 @@ needed. It will not do anything.^^J Please use
 \if@firstsection
   \let\abstract\@undefined\let\endabstract\@undefined
   \titlepage@sw{%
-   \vfil
+   %\vfil
    %\clearpage
   }{}%
 \fi
