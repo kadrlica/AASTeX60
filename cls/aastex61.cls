@@ -6,7 +6,7 @@
 %% Copyright 2016 American Astronomical Society  %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\def\currversion{6.1}
+\def\currversion{6.1a}
 
 %%
 %%    These files are distributed
@@ -83,7 +83,7 @@
 %%%  }
 
 \ProvidesClass{aastex61}%%%
- [2016/04/16 Version 6.1/AAS markup document class]%
+ [2017/10/03 Version 6.1a/AAS markup document class]%
 {}
 \ClassInfo{aastex}{%
 ^^J
@@ -640,7 +640,7 @@ revtex4-1.cls^^J^^J}\stop
 \raggedright
 {\sc Draft version \today}\\[2pt]
 {\footnotesize
-Typeset using \LaTeX\ {\bf modern} style in AASTeX61}
+Typeset using \LaTeX\ {\bf modern} style in AASTeX61a}
 \vskip48pt
 }
 \else
@@ -649,7 +649,7 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX61}
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 \noindent{\sc Draft version \today}\\[2pt]
-{\footnotesize Typeset using \LaTeX\ {\bf preprint} style in AASTeX61}
+{\footnotesize Typeset using \LaTeX\ {\bf preprint} style in AASTeX61a}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 \else
 %%
@@ -657,7 +657,7 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX61}
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 {\footnotesize\textsc{\@journalinfo}}\par
-{\footnotesize Typeset using \LaTeX\ {\bf preprint2} style in AASTeX61}
+{\footnotesize Typeset using \LaTeX\ {\bf preprint2} style in AASTeX61a}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 \else
 %%
@@ -665,21 +665,21 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX61}
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 {\footnotesize\textsc{\@journalinfo}}\par
-{\footnotesize Typeset using \LaTeX\ {\bf twocolumn} style in AASTeX61}
+{\footnotesize Typeset using \LaTeX\ {\bf twocolumn} style in AASTeX61a}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 \else
 \ifmanu
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 \noindent\textsc{\@journalinfo}\\[-8pt]
-{\footnotesize Typeset using \LaTeX\ {\bf manuscript} style in AASTeX61}
+{\footnotesize Typeset using \LaTeX\ {\bf manuscript} style in AASTeX61a}
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 \else
 %% Default
 \vspace*{-\headsep}\vspace*{\headheight}
 \footnotesize
 {\footnotesize\textsc{\@journalinfo}}\par
-{\footnotesize Typeset using \LaTeX\ default style in AASTeX61}%% default style
+{\footnotesize Typeset using \LaTeX\ default style in AASTeX61a}%% default style
 \par\vspace*{-\baselineskip}\vspace*{0.625in}
 \fi\fi\fi\fi\fi
 }%
@@ -6376,6 +6376,10 @@ width 0pt\relax\fi}}}
 \endinput
 
 %% Change Log
+October 3, 2017
+Stylistic updates by Alex Drlica-Wagner
+
+=====================
 September 21, 2016
 Finishing Version 6.1 update
 
