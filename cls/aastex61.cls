@@ -773,7 +773,7 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX61}
 \fi
 }%
 
-\def\frontmatter@finalspace{\vspace*{-\baselineskip}\vspace*{0.375in}}
+\def\frontmatter@finalspace{\vskip-24pt}%\vspace*{-\baselineskip}\vspace*{0.375in}}
 
 \def\@separator{\\}%
 
@@ -996,7 +996,7 @@ Typeset using \LaTeX\ {\bf modern} style in AASTeX61}
      \setcounter{footnote}{\thefront@matter@foot@note}%
      \let\footnotetext=\old@foot@note@text
      \let\footnotemark=\old@foot@note@mark
-   %\clearpage
+   \clearpage
    \if@two@col
    \twocolumngrid
    \fi
@@ -6204,8 +6204,8 @@ needed. It will not do anything.^^J Please use
 \if@firstsection
   \let\abstract\@undefined\let\endabstract\@undefined
   \titlepage@sw{%
-   %\vfil
-   %\clearpage
+   \vfil
+   \clearpage
   }{}%
 \fi
 }%
